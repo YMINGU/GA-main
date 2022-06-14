@@ -1,0 +1,35 @@
+Code to modify:
+
+
+Run geneticSolarTest.m in 
+LAMP-solar\trunk\solar_input\examples\testFilmConeHoleTop 
+to get the cone hole on top of thin film data.
+
+Run geneticSolarTest.m in 
+LAMP-solar\trunk\solar_input\examples\testFilmConeHoleBottom
+to get the cone hole on bottom of thin film data.
+
+Run geneticSolarTest.m in 
+LAMP-solar\trunk\solar_input\examples\testFilmConeHoleArrayBoth 
+to get the cone hole on both sides of thin film data.
+
+Run geneticSolarTest.m in 
+LAMP-solar\trunk\solar_input\examplestestFilmConeTop
+to get the cone on top of thin film data.
+
+Run geneticSolarTest.m in 
+LAMP-solar\trunk\solar_input\examplestestFilmConeBottom
+to get the cone on bottom of thin film data.
+
+run analyze_thin_film_results.m in each folder to analyze the data 
+
+Data we already have: 
+
+DoubleSidedNanoconeHole1000nmbest: optimal results for three types of cone hole film structures with eqvuilent thickness as 1000 nm.
+rtop500rbot100a1000T1100: cone hole on top of film
+rtop200rbot400a800T1200: cone hole on bottom of film
+Toprtop200Toprbot160TopH1000Topn2Botrbot300Botrbot300Botn1a820T1670: cone hole on both sides.
+
+
+For the film cone structures:
+The optimization gives the same results after about 2 generations, it is too fast, probably need to address the constrain conditions, but not sure. 
