@@ -1,0 +1,30 @@
+# clear all existed contents 
+selectall; 
+delete; 
+# create Conestucture on rectangle thin fim top; 
+# for rectangle, the input parameter is a1t and materialString. for conetop, inputs are rTop1, rBot1 and h1; 
+addrect; 
+set("x span", 4e-06);
+set("y span", 4e-06);
+set("z span", 1e-06);
+set("material", 'Si (Silicon) - Palik');
+set("first axis", 'none');
+set("second axis", 'none');
+set("third axis", 'none');
+addobject("trunc_cone"); 
+set("x", 0);
+set("y", 0);
+set("z", 7e-07);
+set("material", 'Si (Silicon) - Palik');
+set("r top", 1e-07);
+set("r bottom", 2e-07);
+set("z span", 4e-07);
+set("first axis", 'none');
+set("second axis", 'none');
+set("third axis", 'none');
+# addsource; 
+# clear all existed contents 
+selectall; 
+delete; 
+# create Conestucture on rectangle thin fim top; 
+# for rectangle, the input parameter is a1t and materialString. for conetop, inputs are rTop1, rBot1 and h1; 

@@ -1,0 +1,10 @@
+addrect; 
+set("x", 0);
+set("x span", 0.4);
+set("y", 0);
+set("y span", 0.6);
+set("z", 0);
+set("z span", 2);
+set("z max", 1);
+addrect; 
+set("z span", 2);

@@ -1,0 +1,4 @@
+set("render type", 'detailed');
+set("detail", 0.5);
+set("override color opacity from material database", 1);
+set("alpha", 1);

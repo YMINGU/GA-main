@@ -1,0 +1,3 @@
+set("first axis", 'none');
+set("second axis", 'none');
+set("third axis", 'none');
