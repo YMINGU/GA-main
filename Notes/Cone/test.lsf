@@ -1,0 +1,9 @@
+addcustom; 
+set("x", 0);
+set("x span", 2e-06);
+set("y", 0);
+set("y span", 3e-06);
+set("z", 0);
+set("z span", 4e-06);
+set("material", 'Si (Silicon) - Palik');
+set("equation1", '?eqn = num2str((rTop1-rBot1)/h1)+"*(x+"+num2str(rBot1/(rBot1-rTop1)/h1))*1e6)+")"');
