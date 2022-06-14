@@ -1,0 +1,5 @@
+addrect; 
+set("x span", 2);
+set("y span", 2);
+set("z span", 1);
+set("material", 'Si (Silicon) - Palik');

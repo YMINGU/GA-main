@@ -1,0 +1,2 @@
+set("apodization center", 3e-13);
+set("apodization time width", 2e-13);

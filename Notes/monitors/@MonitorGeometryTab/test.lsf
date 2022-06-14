@@ -1,0 +1,7 @@
+set("x", 2);
+newproject; 
+# clear all existed contents 
+selectall; 
+delete; 
+# create Conestucture on rectangle thin fim top; 
+# for rectangle, the input parameter is a1t and materialString. for conetop, inputs are rTop1, rBot1 and h1; 

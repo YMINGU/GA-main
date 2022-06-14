@@ -1,0 +1,8 @@
+# 
+#values for SourceGeneralTab; 
+# 
+addplane; 
+set("direction", 'Backward');
+set("x", 2);
+set("wavelength start", 2.8e-07);
+set("wavelength stop", 1.2e-06);

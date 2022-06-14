@@ -1,0 +1,4 @@
+set("dimension", '3D');
+set("background index", 1);
+set("simulation time", 5e-14);
+set("simulation temperature", 300);

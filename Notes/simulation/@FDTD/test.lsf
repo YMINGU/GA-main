@@ -1,0 +1,4 @@
+# 
+addfdtd; 
+#  
+set("mesh type", 'uniform');

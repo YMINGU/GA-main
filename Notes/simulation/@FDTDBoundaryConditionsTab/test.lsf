@@ -1,0 +1,6 @@
+set("allow symmetry on all boundaries", 1);
+set("z min bc", 'Perodic');
+set("z max bc", 'Perodic');
+set("allow symmetry on all boundaries", 1);
+set("z min bc", 'Perodic');
+set("z max bc", 'Perodic');
